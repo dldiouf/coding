@@ -8,7 +8,7 @@ object FindSmallestInterval {
     if (len <= 1)
       sys.exit()
     else {
-      if (len > 100000) {
+      if (len < 100000) {
         sys.exit()
       } else {
         for (i <- 0 until (len - 1)) {
